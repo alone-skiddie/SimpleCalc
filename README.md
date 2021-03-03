@@ -16,23 +16,23 @@
 #Open the termux and type below commands to run.
 
 
-apt-get update && apt-get upgrade.
+apt-get update && apt-get upgrade
 
-apt-get install clang.
+apt-get install clang
 
-apt-get install git.
+apt-get install git
 
-git clone https://github.com/ssrshan/SimpleCpp.git.
+git clone https://github.com/ssrshan/SimpleCpp.git
 
-cd SimpleCpp.
+cd SimpleCpp
 
-ls.
+ls
 
-g++ SimpleCpp.cpp.
+g++ SimpleCpp.cpp
 
 
 #then you can see a a.out new file ,run it through.
-./a.out.
+./a.out
 
 #then now you can see the output of the code via termux.
 
