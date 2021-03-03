@@ -19,12 +19,18 @@
 apt-get update && apt-get upgrade.
 
 apt-get install clang.
-apt-get install git .
+
+apt-get install git.
+
 git clone https://github.com/ssrshan/SimpleCpp.git.
 
 cd SimpleCpp.
+
 ls.
+
 g++ SimpleCpp.cpp.
+
+
 #then you can see a a.out new file ,run it through.
 ./a.out.
 
