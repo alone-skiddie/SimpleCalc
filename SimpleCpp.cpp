@@ -82,9 +82,12 @@ cout<<"-----------------------CALCULATOR------------------------";
        cout<< "    "<<" "<<" cos "<<second_no<<" =  "<<cos(second_no)<<endl;
        cout<< "    "<<" "<<" tan "<<second_no<<" = "<<tan(second_no)<<endl;
               break;
-       
-           
-       }
+      
+        default:
+           cout<<"invalid selection!!!";
+            break;
+
+  }
       
       
 	return 0;
