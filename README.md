@@ -1,21 +1,25 @@
 # SimpleCpp
 
 
-https://github.com/ssrshan/SimpleCpp/issues/1#issue-821091384
-This is a simple c++ program to calculate simple mathematic functions addition, substraction, multiplication, division &amp;&amp; sin/cos/tan value. This is helpful for beginners who are studying about c++ language. There are many ways to calculate mathematic operations.In this c++ program I used switch statement.
+https://user-images.githubusercontent.com/79966315/109810046-0d294080-7c4f-11eb-8ebe-f967579dbf55.jpeg
 
-                 Thanks
+
+This is a simple c++ program to calculate simple mathematic functions addition, substraction, multiplication, division &amp;&amp; sin/cos/tan value. This is helpful for beginners who are studying about c++ language. There are many ways to calculate mathematic operations.In this c++ program I used switch statement
+                 
+
 
 
 #This is very helpful for those who are starting with c++ program.
 
 #You can run it using different types of c++ conpilers,ide etc.
+
 #You can also run with android phones using Android applications like cxxdroid, and websites like online gdb compiler etc.
+
 #You can also run through termux... 
 
 #In this i will show you how to run this SimpleCpp through termux.
 
-#installation and running
+            installation and running
 
 #Open the termux and type below commands to run.
 
