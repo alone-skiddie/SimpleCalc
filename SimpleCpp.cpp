@@ -8,9 +8,12 @@ int main()
     int  choice;
     double  no;
     double  result;
-      
-      cout<<"\n";
-      
+
+cout<<"-----------------------CALCULATOR------------------------";
+     cout<<"\n\n";
+      cout<<"                select the operations:-\n ";
+     cout<<"\n";
+  
  cout<<"    1 >> addition: \n    2 >> substraction \n    3 >> multiplication: \n    4 >> division\n    5 >> sin/cos/tan \n  " <<endl <<"   enter your choice: ";
  
        cin>>choice;
