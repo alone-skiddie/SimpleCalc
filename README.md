@@ -29,7 +29,7 @@ cd SimpleCpp
 
 ls
 
-#you can see a file named SimpleCpp
+#you can see a file named SimpleCpp.cpp
 
 g++ SimpleCpp.cpp
 
