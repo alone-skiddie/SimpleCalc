@@ -13,30 +13,32 @@ This is a simple c++ program to calculate simple mathematic functions addition, 
 
 #In this i will show you how to run this SimpleCpp through termux.
 
+#installation and running
+
 #Open the termux and type below commands to run.
 
 
-apt-get update && apt-get upgrade
+$apt-get update && apt-get upgrade
 
-apt-get install clang
+$apt-get install clang
 
-apt-get install git
+$apt-get install git
 
-git clone 
+$git clone 
 https://github.com/ssrshan/SimpleCpp.git
 
-cd SimpleCpp
+$cd SimpleCpp
 
-ls
+$ls
 
 #you can see a file named SimpleCpp.cpp
 
-g++ SimpleCpp.cpp
+$g++ SimpleCpp.cpp
 
 
 #then you can see a a.out new file ,run it through.
 
-./a.out
+$./a.out
 
 #then now you can see the output of the code via termux.
 
