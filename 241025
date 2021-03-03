@@ -1,0 +1,88 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+	double  first_no,second_no;
+    int  choice;
+    double  no;
+    double  result;
+      
+      cout<<"\n";
+      
+ cout<<"    1 >> addition: \n    2 >> substraction \n    3 >> multiplication: \n    4 >> division\n    5 >> sin/cos/tan \n  " <<endl <<"   enter your choice: ";
+ 
+       cin>>choice;
+       cout<<"\n";
+       
+       switch (choice){
+       	 
+       	 case 1:	   
+       cout<<"   enter the first no: ";
+       cin>>first_no;
+       cout<<"   enter the second no: ";
+       cin>>second_no;
+       result=first_no + second_no;
+       cout<<"\n";
+       cout<< "        "<<" "<<first_no <<" + "<<second_no <<" = "<<result<<endl;
+              break;
+      
+     
+       	 case 2:	   
+       cout<<"   enter the first no: ";
+       cin>>first_no;
+       cout<<"   enter the second no: ";
+       cin>>second_no;
+       result=first_no - second_no;
+       cout<<"\n";
+       cout<< "        "<<" "<<first_no <<" - "<<second_no <<" = "<<result<<endl;
+              break;
+              
+             
+            
+       	 case 3:	   
+       cout<<"   enter the first no: ";
+       cin>>first_no;
+       cout<<"   enter the second no: ";
+       cin>>second_no;
+       result=first_no *  second_no;
+       cout<<"\n";
+       cout<< "        "<<" "<<first_no <<" × "<<second_no <<" = "<<result<<endl;
+              break;
+              
+              
+       	 case 4:	   
+       cout<<"   enter the first no: ";
+       cin>>first_no;
+       cout<<"   enter the second no: ";
+       cin>>second_no;
+       result=first_no / second_no;
+       cout<<"\n";
+       cout<< "        "<<" "<<first_no <<" ÷ "<<second_no <<" = "<<result<<endl;
+        break;
+       
+       
+       	 case 5:	   
+       cout<<"   enter the first no: ";
+       cin>>first_no;
+       cout<<"   enter the second no: ";
+       cin>>second_no;
+       cout<<"\n";
+       cout<< "    "<<" "<<" sin "<<first_no<<" = "<<sin(first_no)<<endl;
+       cout<< "    "<<" "<<" cos "<<first_no<<" = "<<cos(first_no)<<endl;
+       cout<< "    "<<" "<<" tan "<<first_no<<" = "<<tan(first_no)<<endl;
+   
+       cout<<"\n";
+       
+       cout<< "    "<<" "<<" sin "<<second_no<<" = "<<sin(second_no)<<endl;
+       cout<< "    "<<" "<<" cos "<<second_no<<" =  "<<cos(second_no)<<endl;
+       cout<< "    "<<" "<<" tan "<<second_no<<" = "<<tan(second_no)<<endl;
+              break;
+       
+           
+       }
+      
+      
+	return 0;
+}
