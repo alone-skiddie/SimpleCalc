@@ -1,5 +1,7 @@
 # SimpleCpp
 
+
+https://github.com/ssrshan/SimpleCpp/issues/1#issue-821091384
 This is a simple c++ program to calculate simple mathematic functions addition, substraction, multiplication, division &amp;&amp; sin/cos/tan value. This is helpful for beginners who are studying about c++ language. There are many ways to calculate mathematic operations.In this c++ program I used switch statement.
 
                  Thanks
