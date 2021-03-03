@@ -22,7 +22,8 @@ apt-get install clang
 
 apt-get install git
 
-git clone https://github.com/ssrshan/SimpleCpp.git
+git clone 
+https://github.com/ssrshan/SimpleCpp.git
 
 cd SimpleCpp
 
