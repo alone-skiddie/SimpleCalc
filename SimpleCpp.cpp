@@ -8,6 +8,7 @@ int main()
     int  choice;
     double  no;
     double  result;
+    int sqrt_first_no,sqrt_second_no;
 
 cout<<"-----------------------CALCULATOR------------------------";
      cout<<"\n\n";
