@@ -14,7 +14,7 @@ cout<<"-----------------------CALCULATOR------------------------";
       cout<<"                select the operations:-\n ";
      cout<<"\n";
   
- cout<<"    1 >> addition: \n    2 >> substraction \n    3 >> multiplication: \n    4 >> division\n    5 >> sin/cos/tan \n  " <<endl <<"   enter your choice: ";
+ cout<<"    1 >> addition: \n    2 >> substraction \n    3 >> multiplication: \n    4 >> division\n    5 >> sin/cos/tan \n    6 >> square root: \n  " <<endl <<"   enter your choice: ";
  
        cin>>choice;
        cout<<"\n";
@@ -82,10 +82,26 @@ cout<<"-----------------------CALCULATOR------------------------";
        cout<< "    "<<" "<<" cos "<<second_no<<" =  "<<cos(second_no)<<endl;
        cout<< "    "<<" "<<" tan "<<second_no<<" = "<<tan(second_no)<<endl;
               break;
+
+         
+         case 6:
+       cout<<"   enter the first no: ";
+       cin>>sqrt_first_no;
+       cout<<"   enter the second no: ";
+       cin>>sqrt_second_no;
+       result=first_no *  second_no;
+       cout<<"\n";
+       cout<< "        "<<" "<<" √" <<sqrt_first_no<<" = "<< sqrt(sqrt_first_no)<<endl;
+       cout<< "        "<<" "<<" √" <<sqrt_second_no<<" = "<< sqrt(sqrt_second_no)<<endl;
+        
+              break;
+
+
+
       
         default:
-           cout<<"invalid selection!!!";
-            break;
+          cout<<"invalid selection!!!";
+          break;
 
   }
       
