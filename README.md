@@ -31,39 +31,40 @@ In this i will show you how to run this SimpleCalc through termux.
             
  ![Screenshot_20210304_114519](https://user-images.githubusercontent.com/79966315/109921430-dc461b80-7ce1-11eb-8786-24f6ee8864f8.png)
 
-#Open the termux and copy paste or type below commands without $ for installation and run.
+#Open the termux and copy paste or type below commands for installation and run.
+```
 
+apt-get update && apt-get upgrade
 
-$apt-get update && apt-get upgrade
+apt-get install clang
 
-$apt-get install clang
+apt-get install git
 
-$ apt-get install git
-
-$ git clone 
+git clone 
 https://github.com/los33r/SimpleCalc.git
 
-$ cd SimpleCpp
+cd SimpleCpp
 
-$ ls
+ls
+```
 
-#you can see a file named scalc.cpp
-
-$ g++ scalc.cpp
+you can see a file named scalc.cpp
+```
+g++ scalc.cpp
 
 
 #then you can see a a.out new file ,run it through.
 
-$ ./a.out
-
+./a.out
+```
 #you can also save compiled output as any name like this below
-
+```
 $ g++ scalc.cpp -o calc
 
 #then your output will be saved as calc then you can run 
 
 ./calc
-
+```
 #then now you can see the output of the code via termux.
 
 
