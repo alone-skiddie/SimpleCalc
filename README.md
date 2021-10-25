@@ -41,7 +41,7 @@ apt-get install clang
 apt-get install git
 
 git clone 
-https://github.com/los33r/SimpleCalc.git
+https://github.com/alone-skiddie/SimpleCalc.git
 
 cd SimpleCpp
 
