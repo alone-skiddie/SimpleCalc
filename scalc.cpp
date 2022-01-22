@@ -1,11 +1,6 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-
-
-
-
-
 int main()
 {
 	
@@ -218,17 +213,7 @@ cout<<"-----------------------CALCULATOR------------------------";
         cout<< "        "<<" "<<" √" <<sqrt_second_no<<" = "<< sqrt(sqrt_second_no)<<endl;
         
             cout<<"\n";
-        
               break;
-
-
-
-
-
-
-       }
-	
-	
-	
+      } 
 	return 0;
 }
