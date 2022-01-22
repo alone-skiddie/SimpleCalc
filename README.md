@@ -47,17 +47,15 @@ cd SimpleCpp
 
 ls
 ```
-
 you can see a file named scalc.cpp
 ```
 g++ scalc.cpp
-
 
 #then you can see a a.out new file ,run it through.
 
 ./a.out
 ```
-#you can also save compiled output as any name like this below
+you can also save compiled output as any name like this below
 ```
 $ g++ scalc.cpp -o calc
 
@@ -65,7 +63,3 @@ $ g++ scalc.cpp -o calc
 
 ./calc
 ```
-#then now you can see the output of the code via termux.
-
-
-
